@@ -1,0 +1,23 @@
+.hero{
+    margin-top: 70px;
+    background-image: url('./herobackground.png');
+    min-width: 100%;
+    min-height: 800px;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    display: inline;
+}
+.info{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.image{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+}
